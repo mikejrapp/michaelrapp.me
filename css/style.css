@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+  padding: 3rem;
+  box-sizing: border-box;
+  height: 4000px; }
+
+.heading {
+  color: #fff;
+  text-transform: uppercase; }
+  .heading--primary {
+    font-size: 6rem;
+    display: block;
+    letter-spacing: .8rem;
+    animation-name: riseUp;
+    animation-duration: 2s;
+    animation-timing-function: ease-out; }
+  .heading--sub {
+    font-size: 3rem;
+    display: block;
+    letter-spacing: .35rem;
+    animation-name: fallDown;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards; }
+
+@keyframes riseUp {
+  0% {
+    opacity: 0;
+    transform: translateY(15rem); }
+  100% {
+    opacity: 100%;
+    transform: translate(0); } }
+
+@keyframes fallDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem); }
+  100% {
+    opacity: 100%;
+    transform: translate(0); } }
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(to top, rgba(23, 30, 37, 0.8), rgba(108, 148, 198, 0.8)), url("/images/mountain-lake.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(100% 95%, 76% 65%, 67% 77%, 44% 64%, 26% 85%, 16% 78%, 0 100%, 0 0, 100% 0); }
+  .header__text-box {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }

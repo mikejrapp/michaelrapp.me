@@ -1,0 +1,26 @@
+.heading{
+  color: $color-white;
+  text-transform: uppercase;
+
+  &--primary{
+    font-size: 6rem;
+    display: block;
+    letter-spacing: .8rem;
+
+    animation-name: riseUp;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+
+  &--sub{
+    font-size: 3rem;
+    display: block;
+    letter-spacing: .35rem;
+
+    animation-name: fallDown;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+  }
+}
