@@ -37,6 +37,24 @@ body {
     animation-timing-function: ease-in-out;
     animation-fill-mode: backwards; }
 
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, #57728D, #8096B2);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s;
+  margin-top: 8rem; }
+  .heading-secondary:hover {
+    transform: scale(1.2) skewX(-5deg); }
+
+.text-regular {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif; }
+
 @keyframes riseUp {
   0% {
     opacity: 0;
@@ -53,6 +71,12 @@ body {
     opacity: 100%;
     transform: translate(0); } }
 
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-8 {
+  margin-bottom: 8rem; }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to top, rgba(23, 30, 37, 0.8), rgba(94, 146, 212, 0.8)), url("/images/mountain-lake.jpeg");
@@ -67,3 +91,41 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+
+.personal-image {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #8096B2, #A0B0C3), url("/images/me-bw.jpg"); }
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 6rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col"] {
+    float: left; }
+    .row [class^="col"]:not(:last-child) {
+      margin-right: 8rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 8rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 8rem) / 3); }
+  .row .col-2-of-3 {
+    width: calc( 2 * ((100% - 2 * 8rem) / 3) + 8rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 8rem) / 4); }
+  .row .col-2-of-4 {
+    width: calc( 2 * ((100% - 3 * 8rem) / 4 ) + 8rem); }
+  .row .col-3-of-4 {
+    width: calc( 3 * ((100% - 3 * 8rem) / 4 ) + (2 * 8rem)); }
+
+.section-about {
+  background-color: #f7f7f7;
+  padding: 25rem 0;
+  margin-top: -32rem;
+  height: 110vh;
+  backface-visibility: hidden; }

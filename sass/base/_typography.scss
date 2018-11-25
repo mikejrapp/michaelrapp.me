@@ -24,3 +24,25 @@
     animation-fill-mode: backwards;
   }
 }
+
+.heading-secondary{
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, $color-main-blue, $color-middle-blue);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s;
+  margin-top: 8rem;
+
+  &:hover{
+    transform: scale(1.2) skewX(-5deg);
+  }
+}
+
+.text-regular{
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+}
