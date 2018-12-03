@@ -1,5 +1,19 @@
 .personal-image{
-  height: 100%;
-  width: 100%;
-  background-image: linear-gradient(to right, $color-middle-blue, $color-light-blue), url("/images/me-bw.jpg");
+  height: 300rem;
+  position: relative;
+
+  &__picture{
+    width: 100%;
+    position: absolute;
+    top: 1rem;
+    left: 6rem;
+    border-radius: 3px;
+    box-shadow: 0 .5rem 4rem rgba($color-black, .6);
+    transition: all .2s ease;
+
+    &:hover{
+      transform: scale(1.2) translateY(-.8rem);
+      box-shadow: 0 1rem 5rem rgba($color-black, .4);
+    }
+  }
 }

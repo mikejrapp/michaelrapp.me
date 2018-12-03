@@ -2,7 +2,13 @@
   background-color: $color-light-grey-1;
   padding: 25rem 0;
   margin-top: -32rem;
-  height: 110vh;
+  height: 115rem;
 
   backface-visibility: hidden;
+}
+
+.section-skills{
+  position: relative;
+  height: 100rem;
+  margin-top: -8rem;
 }
