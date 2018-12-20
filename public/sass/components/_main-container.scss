@@ -1,0 +1,32 @@
+.main-container{
+    background-image: linear-gradient(to bottom right, rgba(saturate($color-sea-blue, 40), .8), rgba(saturate($color-sea-blue, 20), .8)), url("../../images/mountain-lake.jpg");
+    background-size: cover;
+
+    height: 90vh;
+    width: 100%;
+    margin: 0 auto;
+
+    clip-path: polygon(100% 0, 100% 100%, 77% 78%, 68% 86%, 49% 73%, 31% 93%, 20% 83%, 0 100%, 0 0);
+
+    position: relative;
+}
+
+.main-title{
+    position: absolute;
+
+    top: 15rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-sub-title{
+    position: absolute;
+
+    top: 22rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}

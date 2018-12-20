@@ -5,6 +5,53 @@
 
 html {
   font-size: 62.5%;
+  padding: 1rem;
+}
+
+.main-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 5rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.main-sub-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.main-container {
+  background-image: linear-gradient(to bottom right, rgba(75, 193, 218, 0.8), rgba(96, 179, 197, 0.8)), url("../../images/mountain-lake.jpg");
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  margin: 0 auto;
+  clip-path: polygon(100% 0, 100% 100%, 77% 78%, 68% 86%, 49% 73%, 31% 93%, 20% 83%, 0 100%, 0 0);
+  position: relative;
+}
+
+.main-title {
+  position: absolute;
+  top: 15rem;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-sub-title {
+  position: absolute;
+  top: 22rem;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=index.css.map */
