@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../../School/Advanced_CSS/advanced-css-course/Natours/.idea/Natours.iml" filepath="$PROJECT_DIR$/../../../School/Advanced_CSS/advanced-css-course/Natours/.idea/Natours.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/michaelrapp.me.iml" filepath="$PROJECT_DIR$/.idea/michaelrapp.me.iml" />
+      <module fileurl="file:///Applications/XAMPP/xamppfiles/htdocs/wapi/.idea/wapi.iml" filepath="/Applications/XAMPP/xamppfiles/htdocs/wapi/.idea/wapi.iml" />
     </modules>
   </component>
 </project>
