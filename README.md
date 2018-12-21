@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://michaelrapp.github.io/calculator/">
-    <img src="https://gslpromotus.co.nz/wp-content/uploads/2017/08/website-icon.png" alt="Website icon" width=72 height=72>
+    <img src="https://gslpromotus.co.nz/wp-content/uploads/2017/08/website-icon.png" alt="Website icon" width=80 height=80>
   </a>
 
   <h3 align="center">Resume Website</h3>
