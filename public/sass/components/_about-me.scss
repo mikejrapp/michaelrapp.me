@@ -1,0 +1,9 @@
+.about-me{
+    display: grid;
+    @include grid-2-column(1fr, 1fr);
+    @include grid-2-row(1fr, 1fr);
+
+    &-title{
+
+    }
+}

@@ -1,0 +1,11 @@
+@mixin grid-2-column($col-1-size, $col-2-size){
+    grid-template-columns: $col-1-size $col-2-size;
+}
+
+@mixin grid-2-row($row-1-size, $row-2-size){
+    grid-template-rows: $row-1-size $row-2-size;
+}
+
+@mixin row-2(){
+    //set something up to handle the row templating
+}

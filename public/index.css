@@ -27,7 +27,7 @@ html {
 }
 
 .main-container {
-  background-image: linear-gradient(to bottom right, rgba(75, 193, 218, 0.8), rgba(96, 179, 197, 0.8)), url("../../images/mountain-lake.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 193, 234, 0.8), rgba(104, 172, 185, 0.8)), url("../../images/mountain-lake.jpg");
   background-size: cover;
   height: 90vh;
   width: 100%;
