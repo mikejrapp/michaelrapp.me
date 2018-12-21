@@ -6,13 +6,13 @@
   <h3 align="center">Resume Website</h3>
 
   <p align="center">
-    Simple calculator application built using Bootstrap 4, HTML, ES6 Modules and multiple Bootstrap Themes from Bootswatch.
+    Just a simple resume site to highlight my skills and talent.
   </p>
 </p>
 
 ## Creator
 <a href="https://github.com/michaelrapp/">
-   <img src="https://twitter.com/richard_codes/profile_image?size=original" alt="Richard's image" width=72 height=72>
+   <img src="https://avatars2.githubusercontent.com/u/8885254?s=460&v=4" alt="Michael Rapp" width=72 height=72>
 </a>
 
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=@richard_codes)
