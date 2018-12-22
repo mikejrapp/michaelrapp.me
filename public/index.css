@@ -30,6 +30,7 @@ html {
   font-family: "Raleway", sans-serif;
   font-size: 3rem;
   text-align: center;
+  letter-spacing: 0.5rem;
   color: #6A6C6E;
 }
 
@@ -37,6 +38,7 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   text-align: left;
+  line-height: 1.5;
   color: #6A6C6E;
 }
 
@@ -127,6 +129,10 @@ html {
   border-radius: 0.8rem;
 }
 
+.experience {
+  background-color: #ebecec;
+  height: 100rem;
+}
 .experience-banner {
   background-image: linear-gradient(to bottom, rgba(104, 172, 185, 0.8), rgba(0, 193, 234, 0.8)), url("../../images/desk.jpeg");
   background-size: cover;
@@ -137,7 +143,6 @@ html {
   transform: skewY(-4deg);
   position: relative;
 }
-
 .experience-title-wrapper {
   position: absolute;
   left: 0;
