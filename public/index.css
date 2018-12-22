@@ -107,8 +107,14 @@ html {
   height: 20rem;
   width: 25rem;
   margin: 0 auto;
+  padding: 2rem;
+}
+.about-me-image {
+  height: 90%;
+  width: 90%;
   background-image: url("../../images/mike_small.jpg");
   background-size: cover;
+  border-radius: 0.8rem;
 }
 
 /*# sourceMappingURL=index.css.map */
