@@ -1,5 +1,5 @@
 .about-me{
-    height: 80rem;
+    height: 100rem;
     background-color: lighten($color-mid-grey, 50);
     margin-top: -25rem;
 
@@ -9,11 +9,11 @@
     &-container{
         position: absolute;
         display: grid;
-        @include grid-2-column(1fr, 1fr);
+        @include grid-2-column(2fr, 1fr);
         @include grid-2-row(1fr, 1fr);
 
         height: 25rem;
-        width: 60%;
+        width: 65%;
 
         top: 35rem;
         @include center-absolute();

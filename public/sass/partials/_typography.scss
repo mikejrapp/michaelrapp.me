@@ -33,3 +33,15 @@
 
     color: $color-mid-grey;
 }
+
+.experience-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 5rem;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: $color-white;
+
+    transform: skewY(4deg);
+}

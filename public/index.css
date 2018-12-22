@@ -40,6 +40,16 @@ html {
   color: #6A6C6E;
 }
 
+.experience-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 5rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  transform: skewY(4deg);
+}
+
 .main-container {
   background-image: linear-gradient(to bottom, rgba(0, 193, 234, 0.8), rgba(104, 172, 185, 0.8)), url("../../images/mountain-lake.jpg");
   background-size: cover;
@@ -71,7 +81,7 @@ html {
 }
 
 .about-me {
-  height: 80rem;
+  height: 100rem;
   background-color: #ebecec;
   margin-top: -25rem;
   position: relative;
@@ -80,10 +90,10 @@ html {
 .about-me-container {
   position: absolute;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
   height: 25rem;
-  width: 60%;
+  width: 65%;
   top: 35rem;
   left: 0;
   right: 0;
@@ -115,6 +125,26 @@ html {
   background-image: url("../../images/mike_small.jpg");
   background-size: cover;
   border-radius: 0.8rem;
+}
+
+.experience-banner {
+  background-image: linear-gradient(to bottom, rgba(104, 172, 185, 0.8), rgba(0, 193, 234, 0.8)), url("../../images/desk.jpeg");
+  background-size: cover;
+  background-position: center;
+  margin-top: -6.5rem;
+  height: 40rem;
+  width: 100%;
+  transform: skewY(-4deg);
+  position: relative;
+}
+
+.experience-title-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 18rem;
 }
 
 /*# sourceMappingURL=index.css.map */
