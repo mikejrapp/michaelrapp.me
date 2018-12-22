@@ -86,7 +86,7 @@
         &-title-3{
             display: inline-block;
 
-            padding: .6rem;
+            padding: .8rem 1rem .8rem 1rem;
             margin-top: 9rem;
             margin-left: -20rem;
         }
@@ -103,9 +103,26 @@
             background-image: linear-gradient(to bottom right, $color-green, $color-green-tinted);
             margin-left: -16rem;
         }
+
+        &-description{
+            padding: 2rem;
+        }
+
+        &-position{
+            margin-bottom: 1rem;
+
+            &-date{
+                margin-top: 1rem;
+            }
+
+            &-points{
+                margin-top: 6rem;
+
+                & > li{
+                    margin: 1.5rem 0 0 4rem;
+                }
+            }
+        }
+
     }
-
-
-
-
 }

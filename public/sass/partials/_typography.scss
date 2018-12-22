@@ -58,3 +58,25 @@
 
     color: $color-white
 }
+
+.experience-card-position{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-align: left;
+
+    &-date{
+        font-family: "Raleway", sans-serif;
+        font-size: 1.6rem;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    &-points{
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.6rem;
+        text-align: left;
+    }
+}

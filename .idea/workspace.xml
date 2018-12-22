@@ -7,8 +7,6 @@
       <change beforePath="$PROJECT_DIR$/public/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/sass/components/_experience.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/sass/components/_experience.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sass/modules/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/sass/modules/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sass/partials/_grids.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/sass/partials/_grids.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/sass/partials/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/sass/partials/_typography.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="802">
-              <caret line="51" column="69" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
+            <state relative-caret-position="726">
+              <caret line="86" column="63" selection-start-line="86" selection-start-column="63" selection-end-line="86" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -31,13 +29,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/sass/components/_experience.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="79" column="119" selection-start-line="79" selection-start-column="119" selection-end-line="79" selection-end-column="119" />
+            <state relative-caret-position="767">
+              <caret line="118" column="33" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/sass/modules/_colors.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="546">
@@ -58,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/sass/partials/_typography.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+            <state relative-caret-position="833">
+              <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -150,10 +148,10 @@
         <option value="$PROJECT_DIR$/public/sass/main.scss" />
         <option value="$PROJECT_DIR$/public/sass/components/_about-me.scss" />
         <option value="$PROJECT_DIR$/public/sass/partials/_grids.scss" />
-        <option value="$PROJECT_DIR$/public/sass/partials/_typography.scss" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/sass/components/_experience.scss" />
         <option value="$PROJECT_DIR$/public/sass/modules/_colors.scss" />
+        <option value="$PROJECT_DIR$/public/sass/partials/_typography.scss" />
+        <option value="$PROJECT_DIR$/public/sass/components/_experience.scss" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -314,12 +312,12 @@
       <workItem from="1543095549943" duration="16607000" />
       <workItem from="1543185873947" duration="20860000" />
       <workItem from="1544721175693" duration="1176000" />
-      <workItem from="1545269964220" duration="26089000" />
+      <workItem from="1545269964220" duration="28855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64732000" />
+    <option name="totallyTimeSpent" value="67498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -562,31 +560,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/partials/_typography.scss">
+    <entry file="file://$PROJECT_DIR$/public/sass/modules/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        <state relative-caret-position="546">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/public/sass/partials/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="51" column="69" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
+        <state relative-caret-position="833">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/components/_experience.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="79" column="119" selection-start-line="79" selection-start-column="119" selection-end-line="79" selection-end-column="119" />
+        <state relative-caret-position="767">
+          <caret line="118" column="33" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/modules/_colors.scss">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="726">
+          <caret line="86" column="63" selection-start-line="86" selection-start-column="63" selection-end-line="86" selection-end-column="63" />
         </state>
       </provider>
     </entry>
