@@ -26,14 +26,30 @@ html {
   color: #fff;
 }
 
+.about-me-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #6A6C6E;
+}
+
+.about-me-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  text-align: left;
+  color: #6A6C6E;
+}
+
 .main-container {
   background-image: linear-gradient(to bottom, rgba(0, 193, 234, 0.8), rgba(104, 172, 185, 0.8)), url("../../images/mountain-lake.jpg");
   background-size: cover;
+  background-attachment: fixed;
   height: 90vh;
   width: 100%;
   margin: 0 auto;
   clip-path: polygon(100% 0, 100% 100%, 77% 78%, 68% 86%, 49% 73%, 31% 93%, 20% 83%, 0 100%, 0 0);
   position: relative;
+  z-index: 100;
 }
 
 .main-title {
@@ -52,6 +68,47 @@ html {
   right: 0;
   margin-left: auto;
   margin-right: auto;
+}
+
+.about-me {
+  height: 80rem;
+  background-color: #ebecec;
+  margin-top: -25rem;
+  position: relative;
+  z-index: 0;
+}
+.about-me-container {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 25rem;
+  width: 60%;
+  top: 35rem;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+.about-me-title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 2rem;
+}
+.about-me-paragraph {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.about-me-image-wrapper {
+  height: 20rem;
+  width: 25rem;
+  margin: 0 auto;
+  background-image: url("../../images/mike_small.jpg");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,9 +1,47 @@
 .about-me{
-    display: grid;
-    @include grid-2-column(1fr, 1fr);
-    @include grid-2-row(1fr, 1fr);
+    height: 80rem;
+    background-color: lighten($color-mid-grey, 50);
+    margin-top: -25rem;
+
+    position: relative;
+    z-index: 0;
+
+    &-container{
+        position: absolute;
+        display: grid;
+        @include grid-2-column(1fr, 1fr);
+        @include grid-2-row(1fr, 1fr);
+
+        height: 25rem;
+        width: 60%;
+
+        top: 35rem;
+        @include center-absolute();
+
+        padding: 2rem;
+    }
 
     &-title{
+        @include column-2();
+        padding: 2rem;
+    }
 
+    &-paragraph{
+        @include column-1();
+        padding: 2rem;
+
+
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    &-image-wrapper{
+        height: 20rem;
+        width: 25rem;
+
+        margin: 0 auto;
+
+        background-image: url("../../images/mike_small.jpg");
+        background-size: cover;
     }
 }

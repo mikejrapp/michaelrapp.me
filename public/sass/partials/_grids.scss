@@ -6,6 +6,17 @@
     grid-template-rows: $row-1-size $row-2-size;
 }
 
+@mixin column-1(){
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+@mixin column-2(){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
 @mixin row-2(){
-    //set something up to handle the row templating
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
