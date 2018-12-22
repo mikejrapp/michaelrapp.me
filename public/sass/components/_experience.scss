@@ -1,6 +1,6 @@
 .experience{
     background-color: lighten($color-mid-grey, 50);
-    height: 100rem;
+    height: 150rem;
 
     &-banner{
         background-image: linear-gradient(to bottom, rgba(saturate($color-sea-blue-tinted, 20), .8), rgba(saturate($color-sea-blue-shaded, 80), .8)), url("../../images/desk.jpeg");
@@ -23,4 +23,89 @@
         @include center-absolute();
         top: 18rem;
     }
+
+    &-card-wrapper{
+        display: grid;
+        @include grid-3-column(1fr, 1fr, 1fr);
+        grid-gap: 2rem;
+
+        margin-top: 20rem;
+        padding: 2rem;
+
+        text-align: center;
+    }
+
+    &-card{
+        height: 50rem;
+        width: 40rem;
+
+        margin: 0 auto;
+
+        background-color: $color-white;
+
+        border-radius: $rounded-corner-main;
+        box-shadow: 0 .3rem 1.4rem rgba($color-mid-grey, .4);
+
+        &-image{
+            height: 30%;
+            width: 100%;
+
+            position: relative;
+
+            &-1,
+            &-2,
+            &-3{
+
+                background-size: cover;
+                background-blend-mode: screen;
+
+                height: 100%;
+                width: 100%;
+
+                border-top-right-radius: $rounded-corner-main;
+                border-top-left-radius: $rounded-corner-main;
+
+                position: absolute;
+            }
+
+            &-1{
+                background-image: linear-gradient(to bottom right, rgba($color-dodger-blue, .9), rgba($color-dodger-blue-tinted, .8)), url("../../images/code.jpeg");
+            }
+
+            &-2{
+                background-image: linear-gradient(to bottom right, rgba($color-orange, .9), rgba($color-orange-tinted, .8)), url("../../images/laptop-2.jpg");
+            }
+
+            &-3{
+                background-image: linear-gradient(to bottom right, rgba($color-green, .9), rgba($color-green-tinted, .9)), url("../../images/laptop.jpg");
+            }
+        }
+
+        &-title-1,
+        &-title-2,
+        &-title-3{
+            display: inline-block;
+
+            padding: .6rem;
+            margin-top: 9rem;
+            margin-left: -20rem;
+        }
+
+        &-title-1{
+            background-image: linear-gradient(to bottom right, $color-dodger-blue, lighten($color-dodger-blue, 20));
+        }
+
+        &-title-2{
+            background-image: linear-gradient(to bottom right, $color-orange, $color-orange-tinted);
+        }
+
+        &-title-3{
+            background-image: linear-gradient(to bottom right, $color-green, $color-green-tinted);
+            margin-left: -16rem;
+        }
+    }
+
+
+
+
 }

@@ -52,6 +52,16 @@ html {
   transform: skewY(4deg);
 }
 
+.experience-card-title-1,
+.experience-card-title-2,
+.experience-card-title-3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 .main-container {
   background-image: linear-gradient(to bottom, rgba(0, 193, 234, 0.8), rgba(104, 172, 185, 0.8)), url("../../images/mountain-lake.jpg");
   background-size: cover;
@@ -131,7 +141,7 @@ html {
 
 .experience {
   background-color: #ebecec;
-  height: 100rem;
+  height: 150rem;
 }
 .experience-banner {
   background-image: linear-gradient(to bottom, rgba(104, 172, 185, 0.8), rgba(0, 193, 234, 0.8)), url("../../images/desk.jpeg");
@@ -150,6 +160,61 @@ html {
   margin-left: auto;
   margin-right: auto;
   top: 18rem;
+}
+.experience-card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  margin-top: 20rem;
+  padding: 2rem;
+  text-align: center;
+}
+.experience-card {
+  height: 50rem;
+  width: 40rem;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.3rem 1.4rem rgba(106, 108, 110, 0.4);
+}
+.experience-card-image {
+  height: 30%;
+  width: 100%;
+  position: relative;
+}
+.experience-card-image-1, .experience-card-image-2, .experience-card-image-3 {
+  background-size: cover;
+  background-blend-mode: screen;
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 0.8rem;
+  border-top-left-radius: 0.8rem;
+  position: absolute;
+}
+.experience-card-image-1 {
+  background-image: linear-gradient(to bottom right, rgba(23, 131, 229, 0.9), rgba(160, 205, 244, 0.8)), url("../../images/code.jpeg");
+}
+.experience-card-image-2 {
+  background-image: linear-gradient(to bottom right, rgba(236, 158, 76, 0.9), rgba(243, 193, 141, 0.8)), url("../../images/laptop-2.jpg");
+}
+.experience-card-image-3 {
+  background-image: linear-gradient(to bottom right, rgba(86, 156, 78, 0.9), rgba(169, 205, 164, 0.9)), url("../../images/laptop.jpg");
+}
+.experience-card-title-1, .experience-card-title-2, .experience-card-title-3 {
+  display: inline-block;
+  padding: 0.6rem;
+  margin-top: 9rem;
+  margin-left: -20rem;
+}
+.experience-card-title-1 {
+  background-image: linear-gradient(to bottom right, #1783E5, #71b4f1);
+}
+.experience-card-title-2 {
+  background-image: linear-gradient(to bottom right, #EC9E4C, #F3C18D);
+}
+.experience-card-title-3 {
+  background-image: linear-gradient(to bottom right, #569c4e, #A9CDA4);
+  margin-left: -16rem;
 }
 
 /*# sourceMappingURL=index.css.map */

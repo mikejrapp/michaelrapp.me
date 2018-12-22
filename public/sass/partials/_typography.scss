@@ -47,3 +47,14 @@
 
     transform: skewY(4deg);
 }
+
+.experience-card-title-1,
+.experience-card-title-2,
+.experience-card-title-3{
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+
+    color: $color-white
+}
