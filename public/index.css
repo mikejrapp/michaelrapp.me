@@ -52,9 +52,9 @@ html {
   transform: skewY(4deg);
 }
 
-.experience-card-title-1,
-.experience-card-title-2,
-.experience-card-title-3 {
+.card-title-1,
+.card-title-2,
+.card-title-3 {
   font-family: "Raleway", sans-serif;
   font-size: 3rem;
   letter-spacing: 0.2rem;
@@ -62,21 +62,34 @@ html {
   color: #fff;
 }
 
-.experience-card-position {
+.card-position {
   font-family: "Raleway", sans-serif;
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   text-align: left;
 }
-.experience-card-position-date {
+.card-position-date {
   font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   text-align: left;
 }
-.experience-card-position-points {
+.card-position-points {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.card-back-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.card-back-paragraph {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   text-align: left;
@@ -189,67 +202,99 @@ html {
   padding: 2rem;
   text-align: center;
 }
-.experience-card {
+
+.card {
+  perspective: 1000px;
   height: 50rem;
   width: 40rem;
   margin: 0 auto;
+}
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+.card-inner {
+  position: relative;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.card-front, .card-back {
+  position: absolute;
+  height: 50rem;
+  width: 40rem;
   background-color: #fff;
   border-radius: 0.8rem;
-  box-shadow: 0 0.3rem 1.4rem rgba(106, 108, 110, 0.4);
+  box-shadow: 0 0.6rem 3rem rgba(106, 108, 110, 0.5);
+  backface-visibility: hidden;
 }
-.experience-card-image {
-  height: 30%;
-  width: 100%;
-  position: relative;
+.card-back {
+  padding: 2rem;
+  transform: rotateY(180deg);
 }
-.experience-card-image-1, .experience-card-image-2, .experience-card-image-3 {
-  background-size: cover;
-  background-blend-mode: screen;
-  height: 100%;
-  width: 100%;
-  border-top-right-radius: 0.8rem;
-  border-top-left-radius: 0.8rem;
+.card-back-title {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.card-back-paragraph {
+  margin-top: 5rem;
+  padding: 4rem;
+  line-height: 1.5;
+}
+.card-image {
   position: absolute;
 }
-.experience-card-image-1 {
+.card-image-1, .card-image-2, .card-image-3 {
+  height: 30%;
+  width: 100%;
+  background-blend-mode: screen;
+  background-size: cover;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+.card-image-1 {
   background-image: linear-gradient(to bottom right, rgba(23, 131, 229, 0.9), rgba(160, 205, 244, 0.8)), url("../../images/code.jpeg");
 }
-.experience-card-image-2 {
-  background-image: linear-gradient(to bottom right, rgba(236, 158, 76, 0.9), rgba(243, 193, 141, 0.8)), url("../../images/laptop-2.jpg");
-}
-.experience-card-image-3 {
+.card-image-2 {
   background-image: linear-gradient(to bottom right, rgba(86, 156, 78, 0.9), rgba(169, 205, 164, 0.9)), url("../../images/laptop.jpg");
 }
-.experience-card-title-1, .experience-card-title-2, .experience-card-title-3 {
+.card-image-3 {
+  background-image: linear-gradient(to bottom right, rgba(236, 158, 76, 0.9), rgba(243, 193, 141, 0.8)), url("../../images/laptop-2.jpg");
+}
+.card-title-1, .card-title-2, .card-title-3 {
   display: inline-block;
   padding: 0.8rem 1rem 0.8rem 1rem;
   margin-top: 9rem;
   margin-left: -20rem;
 }
-.experience-card-title-1 {
+.card-title-1 {
   background-image: linear-gradient(to bottom right, #1783E5, #71b4f1);
 }
-.experience-card-title-2 {
-  background-image: linear-gradient(to bottom right, #EC9E4C, #F3C18D);
-}
-.experience-card-title-3 {
+.card-title-2 {
   background-image: linear-gradient(to bottom right, #569c4e, #A9CDA4);
   margin-left: -16rem;
 }
-.experience-card-description {
-  padding: 2rem;
+.card-title-3 {
+  background-image: linear-gradient(to bottom right, #EC9E4C, #F3C18D);
 }
-.experience-card-position {
+.card-description {
+  position: absolute;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+.card-position {
   margin-bottom: 1rem;
 }
-.experience-card-position-date {
-  margin-top: 1rem;
+.card-position-date {
+  margin-bottom: 1rem;
 }
-.experience-card-position-points {
-  margin-top: 6rem;
+.card-position-points {
+  margin: 5rem 0 0 2rem;
 }
-.experience-card-position-points > li {
-  margin: 1.5rem 0 0 4rem;
+.card-position-points > li {
+  margin-bottom: 1rem;
+}
+
+hr {
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=index.css.map */

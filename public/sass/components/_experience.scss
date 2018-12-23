@@ -34,95 +34,133 @@
 
         text-align: center;
     }
+}
 
-    &-card{
+.card{
+    perspective: 1000px;
+
+    height: 50rem;
+    width: 40rem;
+
+    margin: 0 auto;
+
+    &:hover &-inner{
+        transform: rotateY(180deg);
+    }
+
+    &-inner{
+        position: relative;
+
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+
+    &-front,
+    &-back{
+        position: absolute;
+
         height: 50rem;
         width: 40rem;
-
-        margin: 0 auto;
 
         background-color: $color-white;
 
         border-radius: $rounded-corner-main;
-        box-shadow: 0 .3rem 1.4rem rgba($color-mid-grey, .4);
+        box-shadow: 0 .6rem 3rem rgba($color-mid-grey, .5);
 
-        &-image{
+        backface-visibility: hidden;
+    }
+
+    &-back{
+        padding: 2rem;
+        transform: rotateY(180deg);
+
+        &-title{
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        &-paragraph{
+            margin-top: 5rem;
+            padding: 4rem;
+            line-height: 1.5;
+        }
+    }
+
+    &-image{
+        position: absolute;
+
+        &-1,
+        &-2,
+        &-3{
             height: 30%;
             width: 100%;
+            background-blend-mode: screen;
+            background-size: cover;
 
-            position: relative;
-
-            &-1,
-            &-2,
-            &-3{
-
-                background-size: cover;
-                background-blend-mode: screen;
-
-                height: 100%;
-                width: 100%;
-
-                border-top-right-radius: $rounded-corner-main;
-                border-top-left-radius: $rounded-corner-main;
-
-                position: absolute;
-            }
-
-            &-1{
-                background-image: linear-gradient(to bottom right, rgba($color-dodger-blue, .9), rgba($color-dodger-blue-tinted, .8)), url("../../images/code.jpeg");
-            }
-
-            &-2{
-                background-image: linear-gradient(to bottom right, rgba($color-orange, .9), rgba($color-orange-tinted, .8)), url("../../images/laptop-2.jpg");
-            }
-
-            &-3{
-                background-image: linear-gradient(to bottom right, rgba($color-green, .9), rgba($color-green-tinted, .9)), url("../../images/laptop.jpg");
-            }
+            border-top-left-radius: $rounded-corner-main;
+            border-top-right-radius: $rounded-corner-main;
         }
 
-        &-title-1,
-        &-title-2,
-        &-title-3{
-            display: inline-block;
-
-            padding: .8rem 1rem .8rem 1rem;
-            margin-top: 9rem;
-            margin-left: -20rem;
+        &-1{
+            background-image: linear-gradient(to bottom right, rgba($color-dodger-blue, .9), rgba($color-dodger-blue-tinted, .8)), url("../../images/code.jpeg");
         }
 
-        &-title-1{
-            background-image: linear-gradient(to bottom right, $color-dodger-blue, lighten($color-dodger-blue, 20));
+        &-2{
+            background-image: linear-gradient(to bottom right, rgba($color-green, .9), rgba($color-green-tinted, .9)), url("../../images/laptop.jpg");
         }
 
-        &-title-2{
-            background-image: linear-gradient(to bottom right, $color-orange, $color-orange-tinted);
+        &-3{
+            background-image: linear-gradient(to bottom right, rgba($color-orange, .9), rgba($color-orange-tinted, .8)), url("../../images/laptop-2.jpg");
         }
-
-        &-title-3{
-            background-image: linear-gradient(to bottom right, $color-green, $color-green-tinted);
-            margin-left: -16rem;
-        }
-
-        &-description{
-            padding: 2rem;
-        }
-
-        &-position{
-            margin-bottom: 1rem;
-
-            &-date{
-                margin-top: 1rem;
-            }
-
-            &-points{
-                margin-top: 6rem;
-
-                & > li{
-                    margin: 1.5rem 0 0 4rem;
-                }
-            }
-        }
-
     }
+
+    &-title-1,
+    &-title-2,
+    &-title-3{
+        display: inline-block;
+
+        padding: .8rem 1rem .8rem 1rem;
+        margin-top: 9rem;
+        margin-left: -20rem;
+    }
+
+    &-title-1{
+        background-image: linear-gradient(to bottom right, $color-dodger-blue, lighten($color-dodger-blue, 20));
+    }
+
+    &-title-2{
+        background-image: linear-gradient(to bottom right, $color-green, $color-green-tinted);
+        margin-left: -16rem;
+    }
+
+    &-title-3{
+        background-image: linear-gradient(to bottom right, $color-orange, $color-orange-tinted);
+    }
+
+    &-description{
+        position: absolute;
+
+        padding: 2rem;
+        margin-top: 3rem;
+    }
+
+    &-position{
+        margin-bottom: 1rem;
+
+        &-date{
+            margin-bottom: 1rem;
+        }
+
+        &-points{
+            margin: 5rem 0 0 2rem;
+
+            & > li{
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+hr{
+    margin-bottom: 1rem;
 }

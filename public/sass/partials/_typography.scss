@@ -48,9 +48,9 @@
     transform: skewY(4deg);
 }
 
-.experience-card-title-1,
-.experience-card-title-2,
-.experience-card-title-3{
+.card-title-1,
+.card-title-2,
+.card-title-3{
     font-family: "Raleway", sans-serif;
     font-size: 3rem;
     letter-spacing: .2rem;
@@ -59,7 +59,7 @@
     color: $color-white
 }
 
-.experience-card-position{
+.card-position{
     font-family: "Raleway", sans-serif;
     font-size: 1.8rem;
     letter-spacing: .1rem;
@@ -79,4 +79,17 @@
         font-size: 1.6rem;
         text-align: left;
     }
+}
+
+.card-back-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    letter-spacing: .1rem;
+}
+
+.card-back-paragraph{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    text-align: left;
 }
