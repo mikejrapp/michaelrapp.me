@@ -227,7 +227,6 @@ html {
   backface-visibility: hidden;
 }
 .card-back {
-  padding: 2rem;
   transform: rotateY(180deg);
 }
 .card-back-title {
@@ -235,7 +234,7 @@ html {
   margin-bottom: 1rem;
 }
 .card-back-paragraph {
-  margin-top: 5rem;
+  margin-top: 2rem;
   padding: 4rem;
   line-height: 1.5;
 }
@@ -291,6 +290,10 @@ html {
 }
 .card-position-points > li {
   margin-bottom: 1rem;
+}
+
+.line-wrapper {
+  padding: 2rem;
 }
 
 hr {

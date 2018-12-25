@@ -71,7 +71,7 @@
     }
 
     &-back{
-        padding: 2rem;
+
         transform: rotateY(180deg);
 
         &-title{
@@ -80,7 +80,7 @@
         }
 
         &-paragraph{
-            margin-top: 5rem;
+            margin-top: 2rem;
             padding: 4rem;
             line-height: 1.5;
         }
@@ -159,6 +159,10 @@
             }
         }
     }
+}
+
+.line-wrapper{
+    padding: 2rem;
 }
 
 hr{
