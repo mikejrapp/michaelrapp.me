@@ -93,3 +93,38 @@
     font-size: 1.6rem;
     text-align: left;
 }
+
+.skills-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 5rem;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: $color-white;
+
+    transform: skewY(4deg);
+}
+
+.skills-badge-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: .5rem;
+    color: $color-white;
+}
+
+.skills-badge-subtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    color: $color-mid-grey;
+}
+
+.skills-badge-time{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    color: $color-mid-grey;
+}

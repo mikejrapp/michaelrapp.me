@@ -11,12 +11,16 @@
 }
 
 @mixin grid-3-row($row-1-size, $row-2-size, $row-3-size){
-    grid-template-rows: $row-1-size, $row-2-size, $row-3-size;
+    grid-template-rows: $row-1-size $row-2-size $row-3-size;
 }
 
-@mixin column-1(){
-    grid-column-start: 1;
-    grid-column-end: 2;
+@mixin grid-5-column($col-1-size, $col-2-size, $col-3-size, $col-4-size, $col-5-size){
+    grid-template-columns: $col-1-size $col-2-size $col-3-size $col-4-size $col-5-size;
+}
+
+@mixin column-1($start, $end){
+    grid-column-start: $start;
+    grid-column-end: $end;
 }
 
 @mixin column-2(){

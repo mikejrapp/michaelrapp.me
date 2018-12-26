@@ -7,6 +7,7 @@
     width: 100%;
     margin: 0 auto;
 
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 77% 78%, 68% 86%, 49% 73%, 31% 93%, 20% 83%, 0 100%, 0 0);
     clip-path: polygon(100% 0, 100% 100%, 77% 78%, 68% 86%, 49% 73%, 31% 93%, 20% 83%, 0 100%, 0 0);
 
     position: relative;

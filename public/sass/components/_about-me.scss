@@ -27,7 +27,7 @@
     }
 
     &-paragraph{
-        @include column-1();
+        @include column-1(1, 2);
         padding: 2rem;
 
 

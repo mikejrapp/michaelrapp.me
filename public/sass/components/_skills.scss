@@ -1,0 +1,141 @@
+.skills{
+    background-color: lighten($color-mid-grey, 50);
+    height: 150rem;
+
+    &-banner{
+        background-image: linear-gradient(to bottom, rgba(saturate($color-sea-blue-tinted, 20), .8), rgba(saturate($color-sea-blue-shaded, 80), .8)), url("../../images/gears.jpeg");
+        background-size: cover;
+        background-position: center;
+
+        margin-top: -6.5rem;
+
+        height: 40rem;
+        width: 100%;
+
+        transform: skewY(-4deg);
+
+        position: relative;
+    }
+
+    &-title-wrapper{
+        position: absolute;
+
+        @include center-absolute();
+        top: 18rem;
+    }
+
+    &-badge-wrapper{
+        height: 30rem;
+        width: 60vw;
+
+        margin: 20rem auto 0 auto;
+    }
+
+    &-badge{
+        position: relative;
+
+        background-color: $color-white;
+        border-radius: $rounded-corner-main;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+
+        width: 25rem;
+
+        box-shadow: 0 .6rem 3rem rgba($color-mid-grey, .5);
+
+        &-row-1{
+            display: grid;
+            @include grid-3-column(1fr, 1fr, 1fr);
+            grid-gap: 2rem;
+
+            width: 60vw;
+        }
+
+        &-row-2{
+            display: grid;
+            @include grid-2-column(1fr, 1fr);
+            grid-gap: 2rem;
+
+            margin: 4rem auto 0 auto;
+
+            width: 45vw;
+        }
+
+        &-column{
+            margin: 0 auto;
+        }
+
+        &-image{
+            position: absolute;
+            height: 33%;
+            width: 100%;
+            background-color: #D44C37;
+
+            clip-path: polygon(0 0, 0 50%, 50% 100%, 100% 50%, 100% 0);
+
+            border-top-left-radius: $rounded-corner-main;
+            border-top-right-radius: $rounded-corner-main;
+        }
+
+        &-title{
+            position: absolute;
+
+            height: 6rem;
+            width: 21.6rem;
+
+            margin-top: -23.5rem;
+            padding-top: 3rem;
+            border-top-left-radius: $rounded-corner-main;
+            border-top-right-radius: $rounded-corner-main;
+
+            &-1{
+                background-color: #D44C37;
+            }
+
+            &-2{
+                background-color: $color-dodger-blue;
+            }
+
+            &-3{
+                background-color: #f7df1e;
+            }
+
+            &-4{
+                background-color: #7851a9;
+            }
+
+            &-5{
+                background-color: $color-orange;
+            }
+        }
+
+        &-subtitle{
+            position: absolute;
+
+            height: 6rem;
+            width: 21.6rem;
+
+            margin-top: -15rem;
+            padding-top: 3rem;
+            border-top-left-radius: $rounded-corner-main;
+            border-top-right-radius: $rounded-corner-main;
+        }
+
+        &-time{
+            position: absolute;
+
+            height: 6rem;
+            width: 21.6rem;
+
+            margin-top: -10rem;
+            padding-top: 3rem;
+            border-top-left-radius: $rounded-corner-main;
+            border-top-right-radius: $rounded-corner-main;
+        }
+    }
+}
+
+.column-2-fr{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}

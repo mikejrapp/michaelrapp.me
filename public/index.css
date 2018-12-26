@@ -95,6 +95,39 @@ html {
   text-align: left;
 }
 
+.skills-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 5rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  transform: skewY(4deg);
+}
+
+.skills-badge-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  color: #fff;
+}
+
+.skills-badge-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #6A6C6E;
+}
+
+.skills-badge-time {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #6A6C6E;
+}
+
 .main-container {
   background-image: linear-gradient(to bottom, rgba(0, 193, 234, 0.8), rgba(104, 172, 185, 0.8)), url("../../images/mountain-lake.jpg");
   background-size: cover;
@@ -102,6 +135,7 @@ html {
   height: 90vh;
   width: 100%;
   margin: 0 auto;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 77% 78%, 68% 86%, 49% 73%, 31% 93%, 20% 83%, 0 100%, 0 0);
   clip-path: polygon(100% 0, 100% 100%, 77% 78%, 68% 86%, 49% 73%, 31% 93%, 20% 83%, 0 100%, 0 0);
   position: relative;
   z-index: 100;
@@ -276,6 +310,7 @@ html {
 }
 .card-description {
   position: absolute;
+  width: 90%;
   padding: 2rem;
   margin-top: 3rem;
 }
@@ -298,6 +333,115 @@ html {
 
 hr {
   margin-bottom: 1rem;
+}
+
+.skills {
+  background-color: #ebecec;
+  height: 150rem;
+}
+.skills-banner {
+  background-image: linear-gradient(to bottom, rgba(104, 172, 185, 0.8), rgba(0, 193, 234, 0.8)), url("../../images/gears.jpeg");
+  background-size: cover;
+  background-position: center;
+  margin-top: -6.5rem;
+  height: 40rem;
+  width: 100%;
+  transform: skewY(-4deg);
+  position: relative;
+}
+.skills-title-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 18rem;
+}
+.skills-badge-wrapper {
+  height: 30rem;
+  width: 60vw;
+  margin: 20rem auto 0 auto;
+}
+.skills-badge {
+  position: relative;
+  background-color: #fff;
+  border-radius: 0.8rem;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  width: 25rem;
+  box-shadow: 0 0.6rem 3rem rgba(106, 108, 110, 0.5);
+}
+.skills-badge-row-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  width: 60vw;
+}
+.skills-badge-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin: 4rem auto 0 auto;
+  width: 45vw;
+}
+.skills-badge-column {
+  margin: 0 auto;
+}
+.skills-badge-image {
+  position: absolute;
+  height: 33%;
+  width: 100%;
+  background-color: #D44C37;
+  clip-path: polygon(0 0, 0 50%, 50% 100%, 100% 50%, 100% 0);
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+.skills-badge-title {
+  position: absolute;
+  height: 6rem;
+  width: 21.6rem;
+  margin-top: -23.5rem;
+  padding-top: 3rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+.skills-badge-title-1 {
+  background-color: #D44C37;
+}
+.skills-badge-title-2 {
+  background-color: #1783E5;
+}
+.skills-badge-title-3 {
+  background-color: #f7df1e;
+}
+.skills-badge-title-4 {
+  background-color: #7851a9;
+}
+.skills-badge-title-5 {
+  background-color: #EC9E4C;
+}
+.skills-badge-subtitle {
+  position: absolute;
+  height: 6rem;
+  width: 21.6rem;
+  margin-top: -15rem;
+  padding-top: 3rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+.skills-badge-time {
+  position: absolute;
+  height: 6rem;
+  width: 21.6rem;
+  margin-top: -10rem;
+  padding-top: 3rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+
+.column-2-fr {
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 /*# sourceMappingURL=index.css.map */
