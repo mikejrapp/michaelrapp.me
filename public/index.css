@@ -68,6 +68,7 @@ html {
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   text-align: left;
+  color: #6A6C6E;
 }
 .card-position-date {
   font-family: "Raleway", sans-serif;
@@ -75,11 +76,13 @@ html {
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   text-align: left;
+  color: #6A6C6E;
 }
 .card-position-points {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   text-align: left;
+  color: #6A6C6E;
 }
 
 .card-back-title {
@@ -87,12 +90,14 @@ html {
   font-size: 1.8rem;
   text-align: center;
   letter-spacing: 0.1rem;
+  color: #6A6C6E;
 }
 
 .card-back-paragraph {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   text-align: left;
+  color: #6A6C6E;
 }
 
 .skills-title {
@@ -159,6 +164,11 @@ html {
   margin-right: auto;
 }
 
+@media only screen and (max-width: 600px) {
+  html {
+    background-color: red;
+  }
+}
 .about-me {
   height: 100rem;
   background-color: #ebecec;
@@ -406,19 +416,19 @@ hr {
   border-top-right-radius: 0.8rem;
 }
 .skills-badge-title-1 {
-  background-color: #D44C37;
+  background-color: #b66255;
 }
 .skills-badge-title-2 {
-  background-color: #1783E5;
+  background-color: #3781c6;
 }
 .skills-badge-title-3 {
-  background-color: #f7df1e;
+  background-color: #dac83b;
 }
 .skills-badge-title-4 {
-  background-color: #7851a9;
+  background-color: #7c708a;
 }
 .skills-badge-title-5 {
-  background-color: #EC9E4C;
+  background-color: #d39d65;
 }
 .skills-badge-subtitle {
   position: absolute;

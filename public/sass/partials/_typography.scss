@@ -65,6 +65,7 @@
     letter-spacing: .1rem;
     text-transform: uppercase;
     text-align: left;
+    color: $color-mid-grey;
 
     &-date{
         font-family: "Raleway", sans-serif;
@@ -72,12 +73,14 @@
         letter-spacing: .1rem;
         text-transform: uppercase;
         text-align: left;
+        color: $color-mid-grey;
     }
 
     &-points{
         font-family: "Montserrat", sans-serif;
         font-size: 1.6rem;
         text-align: left;
+        color: $color-mid-grey;
     }
 }
 
@@ -86,12 +89,14 @@
     font-size: 1.8rem;
     text-align: center;
     letter-spacing: .1rem;
+    color: $color-mid-grey;
 }
 
 .card-back-paragraph{
     font-family: "Montserrat", sans-serif;
     font-size: 1.6rem;
     text-align: left;
+    color: $color-mid-grey;
 }
 
 .skills-title{

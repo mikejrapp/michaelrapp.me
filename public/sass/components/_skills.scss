@@ -89,23 +89,23 @@
             border-top-right-radius: $rounded-corner-main;
 
             &-1{
-                background-color: #D44C37;
+                background-color: desaturate(#D44C37, 25);
             }
 
             &-2{
-                background-color: $color-dodger-blue;
+                background-color: desaturate($color-dodger-blue, 25);
             }
 
             &-3{
-                background-color: #f7df1e;
+                background-color: desaturate(#f7df1e, 25);
             }
 
             &-4{
-                background-color: #7851a9;
+                background-color: desaturate(#7851a9, 25);
             }
 
             &-5{
-                background-color: $color-orange;
+                background-color: desaturate($color-orange, 25);
             }
         }
 
