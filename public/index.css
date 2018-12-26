@@ -164,11 +164,12 @@ html {
   margin-right: auto;
 }
 
-@media only screen and (max-width: 600px) {
-  html {
-    background-color: red;
-  }
-}
+/*
+@media only screen and (max-width: 600px){
+    html{
+        background-color: red;
+    }
+}*/
 .about-me {
   height: 100rem;
   background-color: #ebecec;

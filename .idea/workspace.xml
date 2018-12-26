@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f66324-92e6-415e-a426-c1f69e9bb8c2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/sass/components/_main-container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/sass/components/_main-container.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sass/components/_skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/sass/components/_skills.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sass/partials/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/sass/partials/_typography.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +22,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/sass/components/_main-container.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="35" selection-start-line="34" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/sass/components/_skills.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="584">
@@ -111,8 +115,8 @@
         <option value="$PROJECT_DIR$/public/sass/components/_experience.scss" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/sass/partials/_typography.scss" />
-        <option value="$PROJECT_DIR$/public/sass/components/_main-container.scss" />
         <option value="$PROJECT_DIR$/public/sass/components/_skills.scss" />
+        <option value="$PROJECT_DIR$/public/sass/components/_main-container.scss" />
       </list>
     </option>
   </component>
@@ -281,12 +285,12 @@
       <workItem from="1543095549943" duration="16607000" />
       <workItem from="1543185873947" duration="20860000" />
       <workItem from="1544721175693" duration="1176000" />
-      <workItem from="1545269964220" duration="57446000" />
+      <workItem from="1545269964220" duration="57671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96089000" />
+    <option name="totallyTimeSpent" value="96314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -543,10 +547,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/components/_main-container.scss">
+    <entry file="file://$PROJECT_DIR$/public/sass/components/_skills.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="584">
+          <caret line="91" column="56" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="56" />
+          <caret line="95" column="67" selection-start-line="95" selection-start-column="67" selection-end-line="95" selection-end-column="67" />
+          <caret line="99" column="56" selection-start-line="99" selection-start-column="56" selection-end-line="99" selection-end-column="56" />
+          <caret line="103" column="56" selection-start-line="103" selection-start-column="56" selection-end-line="103" selection-end-column="56" />
+          <caret line="107" column="62" selection-start-line="107" selection-start-column="62" selection-end-line="107" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -557,14 +565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/components/_skills.scss">
+    <entry file="file://$PROJECT_DIR$/public/sass/components/_main-container.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="91" column="56" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="56" />
-          <caret line="95" column="67" selection-start-line="95" selection-start-column="67" selection-end-line="95" selection-end-column="67" />
-          <caret line="99" column="56" selection-start-line="99" selection-start-column="56" selection-end-line="99" selection-end-column="56" />
-          <caret line="103" column="56" selection-start-line="103" selection-start-column="56" selection-end-line="103" selection-end-column="56" />
-          <caret line="107" column="62" selection-start-line="107" selection-start-column="62" selection-end-line="107" selection-end-column="62" />
+        <state relative-caret-position="735">
+          <caret line="35" selection-start-line="34" selection-end-line="40" />
         </state>
       </provider>
     </entry>
