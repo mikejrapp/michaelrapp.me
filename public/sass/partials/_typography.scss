@@ -133,3 +133,21 @@
     text-align: center;
     color: $color-mid-grey;
 }
+
+@media only screen and (max-width: 1000px){
+    .main-title{
+        font-size: 60px;
+    }
+
+    .main-sub-title{
+        font-size: 40px;
+    }
+
+    .about-me-title{
+        font-size: 50px;
+    }
+
+    .about-me-paragraph{
+        font-size: 32px;
+    }
+}
