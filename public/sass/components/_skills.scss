@@ -139,3 +139,9 @@
     grid-column-start: 1;
     grid-column-end: 2;
 }
+
+@media only screen and (max-width: 1000px){
+    .skills-badge-wrapper{
+        width: 70vw;
+    }
+}

@@ -32,9 +32,17 @@
     margin-right: auto;
 }
 
-/*
-@media only screen and (max-width: 600px){
-    html{
-        background-color: red;
+@media only screen and (max-width: 1400px){
+    .main-container{
+        background-attachment: inherit;
+        background-position: top;
     }
-}*/
+
+    .main-title{
+        top: 250px;
+    }
+
+    .main-sub-title{
+        top: 320px;
+    }
+}

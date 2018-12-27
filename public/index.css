@@ -181,12 +181,20 @@ html {
   margin-right: auto;
 }
 
-/*
-@media only screen and (max-width: 600px){
-    html{
-        background-color: red;
-    }
-}*/
+@media only screen and (max-width: 1400px) {
+  .main-container {
+    background-attachment: inherit;
+    background-position: top;
+  }
+
+  .main-title {
+    top: 250px;
+  }
+
+  .main-sub-title {
+    top: 320px;
+  }
+}
 .about-me {
   height: 100rem;
   background-color: #ebecec;
@@ -506,6 +514,12 @@ hr {
 .column-2-fr {
   grid-column-start: 1;
   grid-column-end: 2;
+}
+
+@media only screen and (max-width: 1000px) {
+  .skills-badge-wrapper {
+    width: 70vw;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
