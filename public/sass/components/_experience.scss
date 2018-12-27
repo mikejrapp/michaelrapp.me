@@ -171,7 +171,7 @@ hr{
     margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 85rem){
+@media only screen and (max-width: 1400px){
     .experience{
         height: 290rem;
     }
@@ -179,7 +179,7 @@ hr{
     .experience-card-wrapper{
         @include grid-2-column(1fr, 1fr);
         grid-gap: 8rem;
-        margin: 20rem auto 0 auto;
+        margin: 200px auto 0 auto;
     }
 
     .card{
@@ -191,7 +191,6 @@ hr{
     .card-back{
         position: absolute;
 
-        height: 50rem;
         width: 50vw;
     }
 }
