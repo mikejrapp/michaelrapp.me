@@ -170,3 +170,28 @@
 hr{
     margin-bottom: 1rem;
 }
+
+@media only screen and (max-width: 85rem){
+    .experience{
+        height: 290rem;
+    }
+
+    .experience-card-wrapper{
+        @include grid-2-column(1fr, 1fr);
+        grid-gap: 8rem;
+        margin: 20rem auto 0 auto;
+    }
+
+    .card{
+        @include column-1(1, 3);
+        width: 50vw;
+    }
+
+    .card-front,
+    .card-back{
+        position: absolute;
+
+        height: 50rem;
+        width: 50vw;
+    }
+}
