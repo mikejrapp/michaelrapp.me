@@ -352,6 +352,7 @@ a:visited {
   border-radius: 0.8rem;
   box-shadow: 0 0.6rem 3rem rgba(106, 108, 110, 0.5);
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 .card-back {
   transform: rotateY(180deg);
@@ -406,6 +407,7 @@ a:visited {
   width: 90%;
   padding: 2rem;
   margin-top: 3rem;
+  -webkit-backface-visibility: hidden;
 }
 .card-position {
   margin-bottom: 1rem;

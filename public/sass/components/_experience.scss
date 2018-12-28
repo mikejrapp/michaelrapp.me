@@ -56,7 +56,8 @@
     }
 
     &-front,
-    &-back{
+    &-back
+    {
         position: absolute;
 
         height: 50rem;
@@ -68,6 +69,7 @@
         box-shadow: 0 .6rem 3rem rgba($color-mid-grey, .5);
 
         backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
     }
 
     &-back{
@@ -144,6 +146,8 @@
 
         padding: 2rem;
         margin-top: 3rem;
+
+        -webkit-backface-visibility: hidden;
     }
 
     &-position{
