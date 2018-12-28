@@ -133,6 +133,50 @@ html {
   color: #6A6C6E;
 }
 
+.contact-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #6A6C6E;
+}
+
+.contact-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #6A6C6E;
+}
+
+.contact-social-media-title,
+.contact-personal-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #6A6C6E;
+}
+
+.contact-social-media,
+.contact-personal {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #6A6C6E;
+}
+.contact-social-media > ul,
+.contact-personal > ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+a:active {
+  color: #5E848C;
+}
+a:visited {
+  color: #7E9DA3;
+}
+
 @media only screen and (max-width: 1000px) {
   .main-title {
     font-size: 60px;
@@ -409,7 +453,7 @@ hr {
 }
 .skills {
   background-color: #ebecec;
-  height: 150rem;
+  height: 130rem;
 }
 .skills-banner {
   background-image: linear-gradient(to bottom, rgba(104, 172, 185, 0.8), rgba(0, 193, 234, 0.8)), url("../../images/gears.jpeg");
@@ -520,6 +564,46 @@ hr {
   .skills-badge-wrapper {
     width: 70vw;
   }
+}
+.contact {
+  height: 30rem;
+  background-color: #d1d2d3;
+  position: relative;
+  padding: 2rem;
+}
+.contact-title-wrapper {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+.contact-paragraph {
+  margin-top: 2rem;
+}
+.contact-info-wrapper {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  width: 50vw;
+  top: 16rem;
+  padding: 2rem;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-info-title {
+  margin-bottom: 1rem;
+}
+.contact-info-list {
+  margin-top: 1.5rem;
+}
+.contact-info-list > li {
+  margin-top: 0.8rem;
 }
 
 /*# sourceMappingURL=index.css.map */

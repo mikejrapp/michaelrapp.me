@@ -1,0 +1,49 @@
+.contact{
+    height: 30rem;
+    background-color: lighten($color-mid-grey, 40);
+
+    position: relative;
+
+    padding: 2rem;
+
+    &-title-wrapper{
+        position: absolute;
+
+        top: 4rem;
+        @include center-absolute();
+
+        padding: 2rem;
+    }
+
+    &-paragraph{
+        margin-top: 2rem;
+    }
+
+    &-info-wrapper{
+        position: absolute;
+
+        display: grid;
+        @include grid-2-column(1fr, 1fr);
+        grid-gap: 2rem;
+
+        width: 50vw;
+
+        top: 16rem;
+
+        padding: 2rem;
+
+        @include center-absolute();
+    }
+
+    &-info-title{
+        margin-bottom: 1rem;
+    }
+
+    &-info-list{
+        margin-top: 1.5rem;
+
+        & > li{
+            margin-top: .8rem;
+        }
+    }
+}

@@ -134,6 +134,52 @@
     color: $color-mid-grey;
 }
 
+.contact-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: $color-mid-grey;
+}
+
+.contact-paragraph{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    color: $color-mid-grey;
+}
+
+.contact-social-media-title,
+.contact-personal-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    color: $color-mid-grey;
+}
+
+.contact-social-media,
+.contact-personal{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    color: $color-mid-grey;
+
+    & > ul{
+        list-style-type: none;
+    }
+}
+
+a {
+    text-decoration: none;
+
+    &:active{
+        color: $color-sea-blue-shaded;
+    }
+
+    &:visited{
+        color: $color-sea-blue-tinted;
+    }
+}
+
 @media only screen and (max-width: 1000px){
     .main-title{
         font-size: 60px;
