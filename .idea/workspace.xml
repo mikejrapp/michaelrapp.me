@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f66324-92e6-415e-a426-c1f69e9bb8c2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sass/components/_main-container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/sass/components/_main-container.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/mountain-lake-optimized.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/mountain-lake-optimized.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,20 +59,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/sass/components/_main-container.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" column="187" selection-start-line="1" selection-start-column="187" selection-end-line="1" selection-end-column="187" />
+              <caret line="1" column="191" selection-start-line="1" selection-start-column="191" selection-end-line="1" selection-end-column="191" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/images/mountain-lake-optimized.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/sass/components/_skills.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
-              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -323,12 +328,12 @@
       <workItem from="1544721175693" duration="1176000" />
       <workItem from="1545269964220" duration="61733000" />
       <workItem from="1545961242366" duration="92000" />
-      <workItem from="1545987974414" duration="7026000" />
+      <workItem from="1545987974414" duration="8743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107494000" />
+    <option name="totallyTimeSpent" value="109211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -567,7 +572,7 @@
     <entry file="file://$PROJECT_DIR$/public/sass/components/_skills.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
-          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -607,12 +612,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/mountain-lake-optimized.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/components/_main-container.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="187" selection-start-line="1" selection-start-column="187" selection-end-line="1" selection-end-column="187" />
+          <caret line="1" column="191" selection-start-line="1" selection-start-column="191" selection-end-line="1" selection-end-column="191" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/mountain-lake-optimized.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
