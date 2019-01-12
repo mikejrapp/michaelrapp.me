@@ -22,6 +22,9 @@
 ## View Project
 <https://michaelrapp.github.io/michaelrapp.me/>
 
+## View Site
+<http://michaelrapp.me/>
+
 ## Status
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/mikejrapp/michaelrapp.me.svg)](https://github.com/mikejrapp/michaelrapp.me/commits/master)
 [![GitHub Search Hit Counter](https://img.shields.io/github/search/mikejrapp/michaelrapp.me/goto.svg)](https://github.com/mikejrapp/michaelrapp.me/)
